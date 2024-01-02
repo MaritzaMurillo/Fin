@@ -49,14 +49,10 @@
   .navbar a:hover::before {
     width: 100%;
   }
-
-
 h1{
     text-align: center;
     font-weight: bold;
-
 }
-
 h2{
     text-align: center;
     font-weight: italic;
@@ -78,7 +74,6 @@ grid-template-columns: repeat(3, 1fr);}
     border-left: black solid;
     border-right: black solid;
     text-align: center;
-
 }
 .individuals{
     text-align: center;
@@ -96,7 +91,7 @@ grid-template-columns: repeat(3, 1fr);}
 .column {
     text-align: center;
     padding: 10px;
-    box-sizing: border-box; /* Include padding and border in the box model */
+    box-sizing: border-box;
 }
 .bottom-rectangle {
     background-color: black;
@@ -105,7 +100,7 @@ grid-template-columns: repeat(3, 1fr);}
 }
 @media screen and (max-width: 600px) {
     .bottom-rectangle {
-        height: auto; /* or set a percentage height */
+        height: auto; 
     }
 }
 .grid-container {
@@ -121,7 +116,7 @@ grid-template-columns: repeat(3, 1fr);}
 .column {
         text-align: center;
         padding: 10px;
-        box-sizing: border-box; /* Include padding and border in the box model */
+        box-sizing: border-box; 
     }
 #one, #two, #three{
         border-right: solid white 2px;
